@@ -1,6 +1,6 @@
 defmodule Voting.VoteRecorder do
   @moduledoc """
-  This module receives vots and sends them to the proper
+  This module receives votes and sends them to the proper
   aggregator.  This module uses supervised tasks to ensure
   that any failure is recovered from and the vote is not
   lost.
